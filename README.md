@@ -24,7 +24,13 @@ This project demonstrates basic SOC analyst skills using Splunk to analyze log d
 - Documented findings
 
 ## Screenshots
-(Will be added after completing analysis)
+
+![Log Output](screenshots/log_output.png)
+
+The script identified suspicious activity:
+- 192.168.1.10 → 3 failed login attempts
+
+This demonstrates the ability to analyze logs and detect potential brute-force attacks using Python.
 
 ## Conclusion
 This project shows how log analysis can be used to detect potential security threats.
